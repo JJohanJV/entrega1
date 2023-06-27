@@ -1,0 +1,31 @@
+.app_principal{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.app_station_details{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 60%;
+    width: 80%;
+    background: var(--bs-white);
+    align-items: center;
+    justify-content: center;
+    table-layout: fixed;
+
+}
+
+.app_station_details table {
+    text-align: center;
+    vertical-align: middle
+}
+
+.app_station_details th{
+    width: 100px;
+    vertical-align: middle
+
+}
