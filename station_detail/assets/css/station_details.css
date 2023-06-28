@@ -66,14 +66,3 @@
     background-color: white;
     color: #01182e;
 }
-
-.btn-outline-primary:hover{
-    background-color: #01182e;
-    color: white;
-}
-
-.btn-outline-primary{
-    color: #01182e;
-    border-color: #01182e;
-}
-
