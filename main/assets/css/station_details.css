@@ -10,22 +10,59 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    height: 60%;
+    height: 85%;
     width: 80%;
     background: var(--bs-white);
     align-items: center;
     justify-content: center;
-    table-layout: fixed;
-
+    table-layout: flex;
 }
 
 .app_station_details table {
     text-align: center;
-    vertical-align: middle
+    vertical-align: middle;
+    font-size: large;
+    overflow-x: auto;
+
 }
 
 .app_station_details th{
     width: 200px;
     vertical-align: middle
 
+}
+
+.th_id{
+    width: 30px !important;
+}
+
+.td_model{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app_station_details td img{
+    width: 10vh;
+}
+
+.bi-x-square-fill{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: #e1e619;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary{
+    color: white;
+    border-color: #01182e;
+    background-color: #01182e;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: #01182e;
 }
